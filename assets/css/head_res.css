@@ -1,0 +1,64 @@
+@media screen and (max-width: 800px)
+{
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+/* components  */
+.nav-contact{
+    display: none;
+}
+.up_heading{
+    font-size: 1rem;
+}
+.main_heading{
+    font-size: 1.7rem;
+}
+.main_para{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.hero_icon{
+    width: 2.5rem;
+    bottom: 15%;
+    left: 5%;
+}
+
+.main_hero{
+    margin-top: 2rem;
+    height: auto;
+   
+}
+
+.icon_linkedin{
+    top: 30%;
+    left: 73%;
+}
+.icon_youtube{
+    top: -9%;
+    left: 85%;
+}
+.icon_insta{
+    top: -5%;
+    left: 25%;
+}
+.icon_map{
+    top: 60%;
+    left: 90%;
+}
+.icon_facebook{
+    top: 5%;
+    left: -7%;
+}
+.icon_messenger{
+    top: -35%;
+    left: 50%;
+}
+
+
+
+
+}
