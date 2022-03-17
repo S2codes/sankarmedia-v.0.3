@@ -5,6 +5,12 @@
 body{
     overflow-x: hidden;
 }
+
+/* navbar  */
+.nav-link::after{
+    content: '';
+    display: none;
+}
 /* components  */
 .nav-contact{
     display: none;
