@@ -12,15 +12,31 @@ body{
     display: none;
 }
 /* components  */
-.nav-contact{
-    display: none;
+.contact_details{
+    text-align: center;
+}
+.ContactTitle{
+    font-size: 1.7rem;
+}
+.contactData{
+    font-size: 1.5rem;
 }
 
-/* main hero section  */
+
 /* components  */
-.nav-contact{
+#nav-contact-social-icon{
     display: none;
 }
+.nav-contact .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.nav-contact .contact a{
+    font-size: 1.2rem;
+}
+
 .up_heading{
     font-size: 1.3rem;
 }

@@ -84,11 +84,26 @@
         text-align: left;
     }
 
+    .ContactTitle{
+        color: var(--primary-color);
+        font-size: 2rem;
+    }
+    .contactData{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.7rem;
+        margin-left: 1rem;
+    }
+
+
     /* components  */
 
     .nav-contact{
         height: 3.5rem;
         background-color: var(--primary-color);
+    }
+    .nav-contact .social{
+        display: flex;
     }
     .nav-contact .contact a,
     .nav-contact .social a{
@@ -225,34 +240,7 @@
 
   
 
-    .contactImgSlider{
-        width: 90%;
-        height: 100%;
-        background-image: url('../img/contact/1.png');
-        background-position: center;
-        background-size: 100% 100%;
-        background-repeat: no-repeat no-repeat;
-        animation: contactImgLoadOut 15s linear infinite ;
-        animation-delay: 3s;
-    }
-    @keyframes contactImgLoadOut {
-        0%{
-            background-image: url('../img/contact/1.png');
-            
-        }
-        25%{
-            background-image: url('../img/contact/2.png');
-            
-        }
-        50%{
-            background-image: url('../img/contact/3.png');
-            
-        }
-        75%{
-            background-image: url('../img/contact/4.png');
-            
-        }
-    }
+
     /* onlineCourseimgSlider */
     .onlineCourseimgSlider{
         width: 100%;
