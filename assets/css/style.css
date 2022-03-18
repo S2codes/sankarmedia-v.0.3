@@ -112,11 +112,18 @@
         padding: 2rem 0;
     }
     .navbar-toggler{
-        color: var(--primary-color);
-        background-color: #FFB200;
+        color: #fff;
+        border: none;
+        outline: none;
+    }
+    .navbar-toggler-icon{
+        width: 100%;
+        height: auto;
+    }
+    .navbar-toggler-icon i{
+        font-size: 3rem;
     }
     .navbar li{
-        /* display: inline-block; */
         margin-left: 2rem;
         font-weight: 500;
         position: relative;
