@@ -22,14 +22,14 @@ body{
     display: none;
 }
 .up_heading{
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .main_heading{
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 .main_para{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .hero_icon{
     width: 2.5rem;
@@ -178,6 +178,10 @@ body{
     margin-top: 2rem;
 }
 
+.about_Container{
+    margin-top: 3rem;
+}
+
 /* review  */
 /* .reviewContainer .reviewIndividual{ */
     /* display: flex; */
@@ -191,6 +195,9 @@ body{
 .review{
     width: 100%;
 }
+.review img{
+    width: 50%;
+}
 .about_client{
     width: 100%;
     padding: 1rem;
@@ -202,9 +209,16 @@ body{
     align-items: center;
     justify-content: center;
 }
+.rating i{
+    font-size: 3rem;
+}
 .quote{
     font-size: 1.5rem;
 }
+.review_msg p{
+    font-size: 1.2rem;
+}
+
 
 /* sevice head img  */
 
@@ -250,6 +264,40 @@ body{
 .main_contact_header{
     align-items:center;
 }
+
+/* home page  */
+.expertiesPara{
+    width: 90%;
+}
+
+
+.expertiesCard {
+    border: 1px solid var(--primary-color);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* counter  */
+.Count_Box{
+    border-left: 2px solid var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
