@@ -49,6 +49,7 @@ body{
     font-size: 2rem;
 }
 .main_para{
+    margin-top: 0.8rem;
     font-size: 1.2rem;
 }
 .hero_icon{
@@ -151,6 +152,9 @@ body{
     padding-left: 2rem;
     padding-right: 2rem;
     margin: auto;
+}
+.footer_subheading {
+    width: 80%;
 }
 .footer_title{
     width: 100%;
@@ -286,10 +290,13 @@ body{
 }
 
 /* home page  */
+.whyus_info{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .expertiesPara{
     width: 90%;
 }
-
 
 .expertiesCard {
     border: 1px solid var(--primary-color);
@@ -305,7 +312,12 @@ body{
     border-left: 2px solid var(--primary-color);
     margin-bottom: 3rem;
 }
-
+.countNum{
+    font-size: 2rem;
+}
+.countTitle{
+    font-size: 1.5rem;
+}
 /* online course  */
 .courseInfo{
     display: flex;
