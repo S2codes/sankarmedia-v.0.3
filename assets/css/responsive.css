@@ -7,6 +7,10 @@ body{
 }
 
 /* navbar  */
+.navContactInfo{
+    width: 100%;
+}
+
 .nav-link::after{
     content: '';
     display: none;
@@ -302,7 +306,27 @@ body{
     margin-bottom: 3rem;
 }
 
+/* online course  */
+.courseInfo{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
+.couseTitle h2{
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 2.5rem;
+}
+.couseTitle p{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+/* course  */
+.aboutCourse{
+    width: 100%;
+}
 
 
 
