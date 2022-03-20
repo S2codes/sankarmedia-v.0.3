@@ -1017,8 +1017,8 @@
 }
 .icon_messenger{
     width: 2.2rem;
-    top: -5%;
-    left: 50%;
+    top: 30%;
+    left: 3%;
     z-index: 100;
     animation: float 3s ease-in  infinite  ;
 }
