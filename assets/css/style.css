@@ -970,6 +970,13 @@
     /* border: 2px solid pink; */
     /* animation: float 6s ease-out  infinite  ; */
 }
+.main_offcourse_hero_img{
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    object-fit: contain;
+}
 
 .hero_icon{
     width: 5rem;
