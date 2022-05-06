@@ -165,6 +165,13 @@ body{
     font-size: 1.2rem;
 }
 
+/* all service list  */
+.service_item{
+    width: 50%;
+}
+.service_item p{
+    font-size: 1.5rem;
+}
 
 
 /* service  */

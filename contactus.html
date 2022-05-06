@@ -96,7 +96,7 @@
 
             <p class="contact_heading">For any Enquiry Feel free to</p>
             <h1 class="contact_sub_heading">Contact Us</h1>
-          
+
             <!-- <div class="head_modal"> -->
             <div class="enquiry_form ">
               <form action="#" method="post">
@@ -133,10 +133,14 @@
       <div class="row">
         <div class="col-md-9" data-aos="fade-right">
           <h2 class="heading heading-left mb-3">Contact Us</h2>
-          <p class="text-light para para-left">SankarMedia happens to be one of the pioneering, creative, & most importantly client-friendly digital marketing service providers in the market. We work towards the satisfaction of our clients and deliver the highest quality standards.</p>
-          
-          <p class="contact_details"><span class="ContactTitle">Contact No :</span> <a href="+918910106632" class="contactData">+91 8910106632</a></p>
-          <p class="contact_details"><span class="ContactTitle">Email :</span> <a href="#" class="contactData">info@sankarmedia.com</a></p>
+          <p class="text-light para para-left">SankarMedia happens to be one of the pioneering, creative, & most
+            importantly client-friendly digital marketing service providers in the market. We work towards the
+            satisfaction of our clients and deliver the highest quality standards.</p>
+
+          <p class="contact_details"><span class="ContactTitle">Contact No :</span> <a href="+918910106632"
+              class="contactData">+91 8910106632</a></p>
+          <p class="contact_details"><span class="ContactTitle">Email :</span> <a href="#"
+              class="contactData">info@sankarmedia.com</a></p>
         </div>
       </div>
     </div>
@@ -214,9 +218,14 @@
   <script src="assets/js/plugins/bootstrap.bundle.min.js"></script>
   <script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="assets/js/main.js"></script>
+  <!-- <script src="assets/js/main.js"></script> -->
   <script>
     AOS.init();
+    $(document).ready(function () {
+      $('#navbarDropdow').click(() => {
+        $('.dropdown-menu').toggleClass('show')
+      })
+    })
   </script>
 </body>
 

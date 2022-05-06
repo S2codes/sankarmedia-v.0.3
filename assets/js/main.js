@@ -1,25 +1,19 @@
 // aos 
 AOS.init();
-
-
+// section observe  
 const observerSection = document.getElementById('observeSection');
 const observer = new IntersectionObserver((entries)=>{
   const ent = entries[0];
-  console.log(ent);
   if (ent.isIntersecting) {
     incrnum()
   }
 }, {root: null, threshold: 1});
 
 observer.observe(observerSection)
-
-
-
+// count on scroll 
 const counterNumber = document.querySelectorAll('.countNum');
 const speed = 35;
 function incrnum() {
-    console.log('call function');
-    
     counterNumber.forEach((curElem) => {
         const updateNumber = () =>{
             const targetNumber = parseInt(curElem.dataset.number);
@@ -37,11 +31,7 @@ function incrnum() {
 
 
 $(document).ready(function () {
-    // console.log('hello jquery');
-    // dropdown 
     $('#navbarDropdow').click(() => {
         $('.dropdown-menu').toggleClass('show')
     })
-
-
 })

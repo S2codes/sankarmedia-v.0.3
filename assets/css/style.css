@@ -999,6 +999,35 @@
     animation: float2 3 ease-in  infinite  ;
 }
 
+
+
+/* all service list  */
+.all_services_list{
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service_item{
+    /* border: 2px solid red; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service_item img{
+    width: 50%;
+    object-fit: cover;
+}
+.service_item p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
 /* service  */
 /* service head img  */
 .icon_g1{
